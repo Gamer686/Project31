@@ -12,11 +12,11 @@ var CreatedFrame = 0*/
 
 
 function preload(){
-   night = loadImage("images/night.jpg");
-  /* thunder1 = loadImages("images/ thunderbolt/1.png");
-   thunder2 = loadImages("images/ thunderbolt/2.png");
-   thunder3 = loadImages("images/ thunderbolt/3.png");
-   thunder4 = loadImages("images/ thunderbolt/4.png");*/
+   night = loadImage("night.jpg");
+  /* thunder1 = loadImages("1.png");
+   thunder2 = loadImages("2.png");
+   thunder3 = loadImages("3.png");
+   thunder4 = loadImages("4.png");*/
 
 }
 
