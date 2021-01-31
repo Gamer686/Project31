@@ -7,13 +7,15 @@ var engine, world;
 var umbrella;
 //var rand;
 var night;
+var img;
 /*var  Thunder ,thunder1 , thunder2, thunder3,thunder4;
 var CreatedFrame = 0*/
 
 
 function preload(){
    night = loadImage("night.jpg");
-  /* thunder1 = loadImages("1.png");
+img = loadImage("walking_1.png");
+/* thunder1 = loadImages("1.png");
    thunder2 = loadImages("2.png");
    thunder3 = loadImages("3.png");
    thunder4 = loadImages("4.png");*/
@@ -37,6 +39,7 @@ function setup(){
 function draw(){
   Engine.update(engine) ;
   background(night) ;
+  umbrella.display;
  /* rand = Math.round(random(1,4));
   if(frameCount%80===0){
       CreatedFrame = frameCount;
@@ -58,7 +61,7 @@ Thunder.scale = 0.7;
       Thunder.destroy();
 
   }
-  umbrella.display();
+  
   for(var i= 0; i< maxDrops; i++){
       drops[i].display();
       drops[i].update();
