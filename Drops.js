@@ -1,4 +1,4 @@
-/*class Drops{
+class Drops{
 constructor(x,y){
     var options ={
         restitution:0.1,
@@ -17,7 +17,7 @@ update(){
 display(){
 noStroke();
 fill(0,0,255);
-ellpiseMode(RADIUS);
+ellipseMode(RADIUS);
 ellipse(this.body.position.x,this.body. position.y,this.radius,this.radius);
 }
-}*/
+}
